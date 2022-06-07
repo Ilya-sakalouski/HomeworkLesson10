@@ -16,7 +16,10 @@ public class Task1 {
         StringBuffer sb = new StringBuffer(s.replaceAll("[^a-zA-Zа-яёА-ЯЁ]", ""));
         return String.valueOf(sb.insert(3, "/").insert(7, "/").insert(9, "/"));
     }
-
+    static String part4(String s) {
+        StringBuilder sbd = new StringBuilder(s.replaceAll("[^a-zA-Zа-яёА-ЯЁ]", ""));
+        return String.valueOf(sbd.insert(3, "/").insert(7, "/").insert(9, "/").insert(0, "Letters:"));
+    }
     static String part5(String s) {
         s.toLowerCase();
         return String.valueOf(s.contains("abc"));

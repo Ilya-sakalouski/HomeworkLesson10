@@ -13,7 +13,7 @@ public class Runner {
         System.out.println(part1(s));
         System.out.println(part2(s));
         System.out.println(part3(s).toLowerCase());
-
+        System.out.println(part4(s).toUpperCase());
         System.out.println(part5(s));
         System.out.println(part6(s));
         System.out.println(part7(s));
