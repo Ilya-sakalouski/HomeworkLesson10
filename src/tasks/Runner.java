@@ -1,8 +1,8 @@
-package src.task1;
+package src.tasks;
 
 import java.util.Scanner;
 
-import static src.task1.Task1.*;
+import static src.tasks.Task1.*;
 
 public class Runner {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.task1;
+package src.tasks;
 
 public class Task5 {
     void task5Ansver() {
